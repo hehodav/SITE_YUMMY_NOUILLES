@@ -1,0 +1,25 @@
+.ctaBanner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--red-highlight);
+    padding: 3.75rem 0 3.75rem 0;
+    color: var(--white);
+}
+
+.ctaBanner__title {
+    margin: 0 0 1rem 0;
+    font-weight: var(--body-highlight-font-weight);
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .ctaBanner {
+      padding: 2.75rem 0 2.75rem 0;
+    }
+  
+    .ctaBanner__title {
+      margin-bottom: 2rem;
+    }
+}
